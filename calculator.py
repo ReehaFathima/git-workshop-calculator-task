@@ -16,13 +16,18 @@ def subtract(a, b):
 def multiply(a, b):
     return a * b
 
-# TODO: Implement this function
-def divide(a, b):
-    pass
 
-# TODO: Implement this function
+def divide(a, b):
+    if b == 0:
+        return "Division not possible"
+    else:
+        return a / b
+
+
+
 def power(a, b):
-    pass
+   return a ** b
+
 
 while True:
     print("\n---- CALCULATOR MENU ----")
